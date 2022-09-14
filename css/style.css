@@ -1,0 +1,162 @@
+/*Font-family
+font-family: 'Montserrat', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Inconsolata', monospace;*/
+
+/*Common CSS start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #3d2514;
+}
+/*Common CSS end*/
+
+/*Header section start*/
+header{
+	background-image: url(../images/banner.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+/*Header-Top start*/
+.header-top{}
+.logo{
+	margin-top: 30px;
+	width: 18%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.num-menu{
+	padding: 20px 0;
+	width: 40%;
+	float: right;
+}
+.delivery{
+	float: right;
+}
+.d-img{
+	width: 28px;
+    height: 28px;
+    display: inline-block;
+}
+.d-img img{
+	width: 100%;
+}
+.d_text{
+	padding-left: 5px;
+	font-size: 12px;
+    font-weight: 600;
+	display: inline-block;
+}
+.delivery p span{
+	padding: 0 0 0 5px
+}
+.menu{
+	float: right;
+}
+.menu ul{
+	margin: 0;
+	float: left;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+.menu ul li a{
+	margin: 0px 25px;
+	font-family: 'Bebas Neue', cursive;
+	float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3d2514;
+    letter-spacing: 2px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transition: .33s ease-in-out;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-top: 2px solid #3d2514;
+    border-bottom: 2px solid #3d2514;
+}
+/*Header-Top end*/
+
+/*Header Body start*/
+.header-body{
+	padding: 0 0 80px;
+	float: left;
+	/*border: 1px solid green;*/
+}
+.header-left{
+	width: 47%;
+	float: left;
+	/*border: 1px solid blue;*/
+}
+.header-left p{
+	margin-top: 110px;
+	padding: 8px 15px;
+	width: 380px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 24px;
+	line-height: 30px;
+	border: 1px dashed #3d2514;
+}
+.left-img{}
+.left-img img{
+	width: 100%;
+}
+.header-right{
+	width: 47%;
+	float: right;
+	/*border: 1px solid blue;*/
+}
+.right-img{
+	position: relative;
+}
+.right-img img{
+	width: 100%;
+}
+.price{
+	position: absolute;
+	width: 175px;
+	height: 175px;
+	font-family: 'Bebas Neue', cursive;
+	left: 0;
+	bottom: 0;
+	background-color: #bf2222;
+	border-radius: 50%;
+}
+.price2{
+	margin: 4% auto;
+	width: 160px;
+	height: 160px;
+	border: 1px dashed #ffffff;
+	border-radius: 50%;
+}
+.price p{
+	margin: 15px auto;
+    width: 50%;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.price span{
+	font-size: 65px;
+}
+/*Header Body end*/
+/*Header section end*/
