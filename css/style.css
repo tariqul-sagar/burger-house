@@ -11,6 +11,7 @@ body{
 	font-family: 'Bebas Neue', cursive;
 	font-size: 16px;
 	font-weight: 400;
+	text-transform: uppercase;
 	color: #3d2514;
 }
 /*Common CSS end*/
@@ -26,7 +27,7 @@ header{
 	width: 90%;
 	margin: 0 auto;
 	overflow: hidden;
-	/*border: 1px solid red;*/
+	border: 1px solid red;
 }
 /*Header-Top start*/
 .header-top{}
@@ -60,6 +61,7 @@ header{
 	font-size: 12px;
     font-weight: 600;
 	display: inline-block;
+	text-transform: capitalize;
 }
 .delivery p span{
 	padding: 0 0 0 5px
@@ -79,7 +81,6 @@ header{
 	margin: 0px 25px;
 	float: left;
     text-decoration: none;
-    text-transform: uppercase;
     color: #3d2514;
     letter-spacing: 2px;
     border-top: 2px solid transparent;
@@ -111,7 +112,6 @@ header{
 	width: 380px;
 	font-size: 24px;
 	line-height: 30px;
-	text-transform: uppercase;
 	border: 1px dashed #3d2514;
 }
 .left-img{
@@ -153,7 +153,6 @@ header{
     font-size: 30px;
     color: #ffffff;
     text-align: center;
-    text-transform: uppercase;
     letter-spacing: 5px;
 }
 .price span{
@@ -169,7 +168,7 @@ header{
 	padding: 70px 0;
 	width: 95%;
 	overflow: hidden;
-	/*border: 1px solid blue;*/
+	border: 1px solid blue;
 }
 .f_left{
 	margin-right: 46px;
@@ -188,14 +187,12 @@ header{
 	margin: 0;
 	padding: 25px 30px 5px;
 	font-size: 24px;
-	text-transform: uppercase;
 	color: #ffffff;
 }
 .f_para1{
 	margin: 0;
 	padding: 0 30px 0;
 	font-size: 42px;
-	text-transform: uppercase;
 	color: #ffffff;
 	line-height: 33px;
 }
