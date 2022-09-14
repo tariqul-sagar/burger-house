@@ -8,7 +8,7 @@ font-family: 'Inconsolata', monospace;*/
 body{
 	margin: 0;
 	padding: 0;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Bebas Neue', cursive;
 	font-size: 16px;
 	font-weight: 400;
 	color: #3d2514;
@@ -47,8 +47,8 @@ header{
 	float: right;
 }
 .d-img{
-	width: 28px;
-    height: 28px;
+	width: 25px;
+    height: 25px;
     display: inline-block;
 }
 .d-img img{
@@ -56,6 +56,7 @@ header{
 }
 .d_text{
 	padding-left: 5px;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 12px;
     font-weight: 600;
 	display: inline-block;
@@ -76,7 +77,6 @@ header{
 }
 .menu ul li a{
 	margin: 0px 25px;
-	font-family: 'Bebas Neue', cursive;
 	float: left;
     text-decoration: none;
     text-transform: uppercase;
@@ -99,33 +99,34 @@ header{
 .header-body{
 	padding: 0 0 80px;
 	float: left;
-	/*border: 1px solid green;*/
 }
 .header-left{
-	width: 47%;
+	margin-right: 35px;
+	width: 48%;
 	float: left;
-	/*border: 1px solid blue;*/
 }
 .header-left p{
-	margin-top: 110px;
+	margin-top: 170px;
 	padding: 8px 15px;
 	width: 380px;
-	font-family: 'Bebas Neue', cursive;
 	font-size: 24px;
 	line-height: 30px;
+	text-transform: uppercase;
 	border: 1px dashed #3d2514;
 }
-.left-img{}
+.left-img{
+	background-color: transparent;
+}
 .left-img img{
 	width: 100%;
 }
 .header-right{
-	width: 47%;
-	float: right;
-	/*border: 1px solid blue;*/
+	width: 48%;
+	float: left;
 }
 .right-img{
 	position: relative;
+	background-color: transparent;
 }
 .right-img img{
 	width: 100%;
@@ -134,7 +135,6 @@ header{
 	position: absolute;
 	width: 175px;
 	height: 175px;
-	font-family: 'Bebas Neue', cursive;
 	left: 0;
 	bottom: 0;
 	background-color: #bf2222;
@@ -142,8 +142,8 @@ header{
 }
 .price2{
 	margin: 4% auto;
-	width: 160px;
-	height: 160px;
+	width: 90%;
+	height: 90%;
 	border: 1px dashed #ffffff;
 	border-radius: 50%;
 }
@@ -153,6 +153,7 @@ header{
     font-size: 30px;
     color: #ffffff;
     text-align: center;
+    text-transform: uppercase;
     letter-spacing: 5px;
 }
 .price span{
@@ -160,3 +161,64 @@ header{
 }
 /*Header Body end*/
 /*Header section end*/
+
+/*Feature Section start*/
+.feature{}
+.feature-content{
+	margin: 0 auto;
+	padding: 70px 0;
+	width: 95%;
+	overflow: hidden;
+	/*border: 1px solid blue;*/
+}
+.f_left{
+	margin-right: 46px;
+	width: 48%;
+	float: left;
+}
+.f_left_content{
+	background-image: url(../images/feature-left.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 420px;
+	border-radius: 10px;
+}
+.f_para{
+	margin: 0;
+	padding: 30px 30px 0;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.f_para1{
+	margin: 0;
+	padding: 0 30px 0;
+	font-size: 42px;
+	text-transform: uppercase;
+	color: #ffffff;
+	line-height: 33px;
+}
+.para2{
+	padding: 0 30px 0;
+	font-size: 36px;
+}
+.f_right{
+	width: 48%;
+	float: left;
+}
+.f_right_img{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 190px;
+	border-radius: 10px;
+}
+.f_right_content1{
+	background-image: url(../images/feature-right1.jpg);	
+}
+.f_right_content2{
+	margin-top: 40px;
+	background-image: url(../images/feature-right2.jpg);
+}
+/*Feature Section end*/
