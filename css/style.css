@@ -389,6 +389,7 @@ header{
 	font-size: 30px;
 	text-align: center;
 	line-height: 40px;
+	letter-spacing: 2px;
 }
 .res-box h1{
 	margin: 25px 0 80px;
@@ -431,17 +432,17 @@ header{
 .burger{
 	position: absolute;
 	top: 0;
-	left: -15px;
+	left: 0;
 }
 .bottle{
 	position: absolute;
-	top: 275px;
-    left: 186px;
+	top: 288px;
+    left: 180px;
 }
 .plate{
 	position: absolute;
 	top: 250px;
-    right: -91px;
+    right: 0;
 }
 .burger img, .bottle img, .plate img{
 	width: 100%;
@@ -579,3 +580,23 @@ footer{
 	color: #bf2222;
 }
 /*Footer Section end*/
+
+
+/*Media Query*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
